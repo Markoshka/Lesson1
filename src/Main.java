@@ -2,7 +2,7 @@ import Some.Body;
 
 import java.util.Scanner;
 
-v2.1.1.1
+//v2.1.1.1
 
 
 public class Main {
@@ -25,7 +25,7 @@ public class Main {
 
         try {
             float a = scanner.nextFloat();
-            System.out.println(  Math.pow((int) a , 2));
+            System.out.println("-"+a);
         } catch (Exception e){ //Exeption -- ловит ошибку   e -- имя ошибки
             System.out.println("Ацтань");
             System.out.println(e);
